@@ -1,3 +1,7 @@
 [workspace]
-members = ["cfg-test"]
-
+members = [
+  "cfg-test",
+  "cfg-feature-lib",
+  "cfg-feature-test-manual",
+  "cfg-feature-test-auto",
+]

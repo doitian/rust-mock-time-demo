@@ -1,4 +1,22 @@
 [[package]]
+name = "cfg-feature-lib"
+version = "0.1.0"
+
+[[package]]
+name = "cfg-feature-test-auto"
+version = "0.1.0"
+dependencies = [
+ "cfg-feature-lib 0.1.0",
+]
+
+[[package]]
+name = "cfg-feature-test-manual"
+version = "0.1.0"
+dependencies = [
+ "cfg-feature-lib 0.1.0",
+]
+
+[[package]]
 name = "cfg-test"
 version = "0.1.0"
 

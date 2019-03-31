@@ -1,0 +1,12 @@
+[package]
+name = "cfg-feature-test-auto"
+version = "0.1.0"
+authors = ["ian <ian@nervos.org>"]
+edition = "2018"
+
+[dependencies]
+cfg-feature-lib = { path = "../cfg-feature-lib" }
+
+[dev-dependencies.cfg-feature-lib]
+path = "../cfg-feature-lib"
+features = ["mock-time"]

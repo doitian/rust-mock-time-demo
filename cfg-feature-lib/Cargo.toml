@@ -1,0 +1,10 @@
+[package]
+name = "cfg-feature-lib"
+version = "0.1.0"
+authors = ["ian <ian@nervos.org>"]
+edition = "2018"
+
+[dependencies]
+
+[features]
+mock-time = []
